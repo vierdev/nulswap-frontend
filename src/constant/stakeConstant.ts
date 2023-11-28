@@ -1,0 +1,1 @@
+export const NSWAP_STAKE_REWARD = 5000000 * Math.pow(10, 8)

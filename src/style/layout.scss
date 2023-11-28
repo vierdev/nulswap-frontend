@@ -1,0 +1,41 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // header {
+  //     flex-grow: 0;
+  //     display: flex;
+  //     .logo {
+  //         flex-grow: 0;
+  //     }
+  //     .link-list {
+  //         flex-grow: 1;
+  //         align-items: center;
+  //         justify-content: right;
+  //         display: flex;
+  //         a {
+  //             padding: 0 10px;
+  //         }
+  //     }
+  // }
+  footer {
+    flex-grow: 0;
+  }
+  main {
+    flex-grow: 1;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .token-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  .token-list::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .token-list::-webkit-scrollbar-thumb {
+    background-color: #32e08d;
+  }
+}
